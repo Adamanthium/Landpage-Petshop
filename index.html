@@ -9,24 +9,46 @@
 </head>
 <body>
   <header>
-    <H1 class="smokun-regular">MundoCão.com</H1>
-
+    <h1 class="smokun-regular">MundoCão.com</h1>
     <nav class="Menu">
       <ul>
-
-        <li><a href="#Sobre"></a>Sobre Nós</li>
-        <li><a href="#Produtos"></a>Produtos</li>
-        <li><a href="Servicos"></a>Serviços</li>
-        <li><a href="#Contato"></a>Contato</li>
-
+        <li><a href="#Sobre" data-bg="url('./Images/Sobre.jpg')">Sobre Nós</a></li>
+        <li><a href="#Produtos" data-bg="url('./Images/Produtos.jpg')">Produtos</a></li>
+        <li><a href="#Servicos" data-bg="url('./Images/Servicos.jpg')">Serviços</a></li>
+        <li><a href="#Contato" data-bg="url('contato.jpg')">Contato</a></li>
       </ul>
-
-  </nav>
-
+    </nav>
   </header>
 
+  <main id="main-content">
+    <section id="Sobre" class="conteudo ativo">
+      <div class="texto">
+        <h2>Sobre Nós</h2>
+        <p>O MundoCão.com nasceu da paixão por cães e da vontade de compartilhar histórias.</p>
+      </div>
+    </section>
 
+    <section id="Produtos" class="conteudo">
+      <div class="texto">
+        <h2>Produtos</h2>
+        <p>Oferecemos acessórios, brinquedos e roupas para deixar seu cão feliz.</p>
+      </div>
+    </section>
 
+    <section id="Servicos" class="conteudo">
+      <div class="texto">
+        <h2>Serviços</h2>
+        <p>Banho, tosa e cuidados especiais para o bem-estar do seu pet.</p>
+      </div>
+    </section>
+
+    <section id="Contato" class="conteudo">
+      <div class="texto">
+        <h2>Contato</h2>
+        <p>Fale conosco e venha conhecer nossa equipe apaixonada por cães.</p>
+      </div>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; <span id="ano"></span> Paulo Lopes. Todos os direitos reservados.</p>

@@ -34,8 +34,38 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: white;
   text-decoration: none;
+}
+
+header nav ul li a:hover {
+  cursor: pointer;   /* cursor de link */
+  color: red;        /* cor ao passar o mouse */
+}
+
+#main-content {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease;
+  position: relative;
+}
+
+.conteudo {
+  display: none; /* esconde todas as seções */
+  position: absolute;
+  top: 20%;
+  left: 40px;
+  max-width: 400px;
+  color: white;
+  font-family: 'Georgia', serif;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.conteudo.ativo {
+  display: block; /* mostra só a seção ativa */
 }
 
 footer {
@@ -48,4 +78,5 @@ footer {
   width: 95%;
   border-radius: 10px;
 }
+
 
