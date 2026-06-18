@@ -28,6 +28,9 @@ header nav ul {
 
 header nav ul li {
   margin-left: 20px;
+  font-family: 'Smokum', cursive;
+  font-size: 36px;
+  margin-right: 40px;
 }
 
 header nav ul li a {
