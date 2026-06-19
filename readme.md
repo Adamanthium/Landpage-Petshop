@@ -24,7 +24,7 @@ meu-projeto/
 ## ⚙️ Como executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
+   git clone https://github.com/Adamanthium/Landpage-Petshop.git
 
 2.Abra a pasta no VS Code.
 
